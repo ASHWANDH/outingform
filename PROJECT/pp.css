@@ -1,0 +1,48 @@
+
+    body{
+        background-color: #AFEEEE;
+    }
+  #login-form {
+    background-color: #E0FFFF;
+    color: #008080;
+    width: 30%;
+    margin: 15% auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+  }
+  fieldset {
+    border: none;
+  }
+  legend {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="list"],
+  textarea,
+  select {
+    color: #008080e0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }

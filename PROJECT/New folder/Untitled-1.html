@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outing Odyssey</title>
+    <style>
+        body {
+            background-color: #E0FFFF;
+            font-size: 35px;
+        }
+        
+        .topnav {
+            text-align: center;
+            margin: 5%;
+        }
+        
+        #heading {
+            font-weight: bold;
+            color: #008080;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #008080;
+            padding: 15px;
+            border: 1px solid #008080;
+            border-radius: 5px;
+        }
+        
+        a:hover {
+            background-color: #008080;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <h2 id="heading">R.M.K. College Of Engineering And Technology</h2><br>
+        <h2 id="heading">Outing Odyssey</h2><br>
+        <a href="./form.html" id="login">Outing Form</a><br><br>
+        <a href="./about.html" id="about">ABOUT</a><br><br>
+    </div>
+    <form method="post" action="/submit">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name" required><br>
+        <label for="regno">Registeration Number:</label><br>
+        <input type="text" id="regno" name="Registeration Number" required><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="Phone Number" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="Email" required><br>
+        <label for="dept">Department:</label><br>
+        <input type="text" id="dept" name="Department" required><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="Address" required></textarea><br>
+        <label for="leave-date">Date Of Leaving:</label><br>
+        <input type="date" id="leave-date" name="Date Of Leaving" required><br>
+        <label for="leave-time">Time Of Leaving:</label><br>
+        <input type="time" id="leave-time" name="Time Of Leaving" required><br>
+        <label for="return-date">Date Of Arriving:</label><br>
+        <input type="date" id="return-date" name="Date Of Arriving" required><br>
+        <label for="return-time">Time Of Arriving:</label><br>
+        <input type="time" id="return-time" name="Time Of Arriving" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
